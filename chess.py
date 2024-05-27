@@ -247,7 +247,7 @@ def main(black, white):
         Drawtimer(PlayersTime, screen)
         
         n.getGameState()
-        print("this is game state", n.whoWon)
+       # print("this is game state", n.whoWon)
         if n.whoWon==ID:
             screen.blit(large.render("You Won", True, (255, 0, 0)), (10, 150))
             screen.blit(large.render("By "+n.HowWon, True, (255, 0, 0)), (10, 225))
