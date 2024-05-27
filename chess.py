@@ -10,8 +10,7 @@ import time
 from board import Board
 from network import Network
 
-#global screen
-#global bo
+
 
 
 
@@ -168,7 +167,7 @@ def main(black, white):
             
         elif ID is None:  
             screen.blit(font.render("Searching for connection", True, (255,255,255)), (20,150))
-            #pygame.display.update()
+            
             
                 
             n.connect()
@@ -221,8 +220,7 @@ def main(black, white):
         
 
         bo.draw(screen, bo, canBlackcastle,canWhitecastle)  
-        #pygame.display.update()  
-        #pygame.display.flip()    
+           
         
         pause=False
         
